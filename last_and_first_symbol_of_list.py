@@ -1,5 +1,4 @@
 some_list = [3,18,44,89,300]
-some_list_first_symbol = some_list[0]
-some_list_last_symbol = some_list[-1]
-some_list[0] = some_list_last_symbol
-some_list[-1] = some_list_first_symbol
+new_some_list = []
+new_some_list.append(some_list[-1])
+new_some_list.  extend(some_list[:-1])
