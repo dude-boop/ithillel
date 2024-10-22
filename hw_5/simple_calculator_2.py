@@ -1,6 +1,6 @@
 
 while True:
-    x = input("Enter 'y' if you want to continue: ")
+    x = input("Enter y if you want to continue: ")
     if x == "y":
         num_1 = int(input("Enter your first number: "))
         num_2 = int(input("Enter your second number: "))
